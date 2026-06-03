@@ -1,0 +1,63 @@
+# Arduino IDE
+*.o
+*.a
+*.so
+*.so.*
+*.su
+*.gch
+*.elf
+*.map
+*.bin
+*.hex
+*.ino.d
+*.ino.o
+*.ino.a
+
+# Build artifacts
+build/
+dist/
+*.o
+*.obj
+*.elf
+*.exe
+*.out
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Platform.io
+.platformio/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Dependencies
+lib/
+libraries/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+#other
+ADXL327-Accelerometer
+Bluetooth
+ESP32-blink-rgb-led
+I2C-multiplexer
